@@ -1,6 +1,6 @@
-var username = 'Alex';
-var pageName = '1';
-var errorMessage = null;
-var user3 = null;
-var someProp = null; //never do that
-var dragonsTag = 'dragons'; // or null
+let username = 'Alex';
+let pageName = '1';
+let errorMessage = null;
+let user3 = null;
+let someProp = null;
+const dragonsTag = 'dragons';

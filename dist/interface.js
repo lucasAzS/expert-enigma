@@ -1,11 +1,11 @@
-var user = {
+const user = {
     name: 'lucas',
     age: 23,
-    getMessage: function () {
+    getMessage() {
         return 'Hello' + this.name;
-    }
+    },
 };
-var user2 = {
-    name: 'someone'
+const user2 = {
+    name: 'someone',
 };
 console.log(user.getMessage());
